@@ -20,9 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0d76bdd-448b-4dbe-8622-d08e1e2b36f4" name="Default Changelist" comment="vv">
-      <change afterPath="$PROJECT_DIR$/img/1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logo_nav.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/coffee_machine_special.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/coffee_machine_steps.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/girl_with_laptop_steps.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/money.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/parcel_steps.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/pours_coffee.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/takes_cup_steps.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/truck.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/manuscript.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628167991166</updated>
-      <workItem from="1628167992318" duration="2706000" />
+      <workItem from="1628167992318" duration="6907000" />
     </task>
     <task id="LOCAL-00001" summary="vv">
       <created>1628168029371</created>
@@ -99,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628169847744</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="vv">
+      <created>1628170789357</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1628170789357</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,10 +143,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1628169705517" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1628169852190">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1628170792718">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1628169852190" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1628170792718" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628168046778">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
