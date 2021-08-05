@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e0d76bdd-448b-4dbe-8622-d08e1e2b36f4" name="Default Changelist" comment="vv" />
+    <list default="true" id="e0d76bdd-448b-4dbe-8622-d08e1e2b36f4" name="Default Changelist" comment="vv">
+      <change afterPath="$PROJECT_DIR$/img/1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo_nav.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,8 +46,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine\fonts" />
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine\css" />
+      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine" />
+      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine\fonts" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine\img" />
@@ -56,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1628167991166</updated>
-      <workItem from="1628167992318" duration="1580000" />
+      <workItem from="1628167992318" duration="2706000" />
     </task>
     <task id="LOCAL-00001" summary="vv">
       <created>1628168029371</created>
@@ -79,7 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1628169293352</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="vv">
+      <created>1628169727324</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1628169727324</updated>
+    </task>
+    <task id="LOCAL-00005" summary="vv">
+      <created>1628169847744</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1628169847744</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,10 +121,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="vv" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1628169319195">
+    <state x="421" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1628169797549">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1628169319195" />
+    <state x="421" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1628169797549" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1628169705517">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1628169705517" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1628169852190">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1628169852190" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628168046778">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
