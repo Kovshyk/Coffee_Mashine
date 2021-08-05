@@ -20,16 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0d76bdd-448b-4dbe-8622-d08e1e2b36f4" name="Default Changelist" comment="vv">
-      <change afterPath="$PROJECT_DIR$/img/coffee_machine_special.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/coffee_machine_steps.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/girl_with_laptop_steps.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/money.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/parcel_steps.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/pours_coffee.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/takes_cup_steps.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/truck.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/brand/costa_brand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/brand/folgers_brand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/brand/frontier_brand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/brand/green_mountain_brand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/brand/lavazza_brand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/brand/melitta_brand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/brand/monarch_brand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/description/arrival_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/description/coffee_beans.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/description/coffee_cup.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/description/coffee_machine.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/description/exceptional_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/machines/frost.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/machines/la_spezia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/machines/organic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/machines/smik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/machines/smik_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/barista.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/coffee_machine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/services/coffee_package.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/manuscript.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +63,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine\css" />
-      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine" />
-      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine\fonts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img\services" />
+      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img\description" />
+      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img\brand" />
+      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img\machines" />
+      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -70,6 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628167991166</updated>
       <workItem from="1628167992318" duration="6907000" />
+      <workItem from="1628186346374" duration="5867000" />
     </task>
     <task id="LOCAL-00001" summary="vv">
       <created>1628168029371</created>
@@ -129,15 +143,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="vv" />
     <option name="LAST_COMMIT_MESSAGE" value="vv" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1628169797549">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="518" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1628188966416">
+      <screen x="0" y="0" width="1680" height="1010" />
     </state>
+    <state x="518" y="230" key="#com.intellij.fileTypes.FileTypeChooser/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1628188966416" />
     <state x="421" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1628169797549" />
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1628169705517">
       <screen x="0" y="0" width="1366" height="728" />
