@@ -1,13 +1,17 @@
 .header_contacts{
     display: inline-flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     background-color:#f9f9f9;
     height: 45px;
 }
+.header_contacts>:first-child{
+    display: inline-block;
+}
 .header_contacts>div>i{
     color: #c00407;
+    padding-right: 20px;
 }
 img{
     width: 200px;
