@@ -6,8 +6,9 @@
     background-color:#f9f9f9;
     height: 45px;
 }
-.header_contacts>:first-child{
-    display: inline-block;
+.header_contacts>div{
+    display: inline-flex;
+
 }
 .header_contacts>div>i{
     color: #c00407;
@@ -16,4 +17,23 @@
 img{
     width: 200px;
     height: 200px;
+}
+header>nav{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 130px;
+    width: 100%;
+}
+header>nav>ul>li{
+    display: inline-block;
+
+}
+.header_ico{
+    display: inline-flex;
+}
+.header_ico>i{
+    height: 30px;
+    width: 30px;
 }
