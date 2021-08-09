@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0d76bdd-448b-4dbe-8622-d08e1e2b36f4" name="Default Changelist" comment="    vv">
+      <change afterPath="$PROJECT_DIR$/img/main_section_background.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +40,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Professional\WebstormProjects\Coffee1\img" />
+      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\css" />
+      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img" />
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img\testimonials" />
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img\pricing" />
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img\coffee" />
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img\services" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\css" />
-      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine\img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,7 +68,7 @@
       <workItem from="1628167992318" duration="6907000" />
       <workItem from="1628186346374" duration="12715000" />
       <workItem from="1628236811909" duration="2872000" />
-      <workItem from="1628518629279" duration="2367000" />
+      <workItem from="1628518629279" duration="3079000" />
     </task>
     <task id="LOCAL-00001" summary="vv">
       <created>1628168029371</created>
@@ -146,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628239086368</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="    vv">
+      <created>1628521133572</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1628521133572</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,11 +187,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1628169705517" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1628239089837">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1628521135304">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="338" y="135" key="Vcs.Push.Dialog.v2/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1628200105581" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1628239089837" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1628521135304" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628168046778">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

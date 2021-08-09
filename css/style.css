@@ -57,3 +57,8 @@ header>nav>ul>li>a{
 .header_ico>i:first-child{
     padding: 10px 12px;
 }
+.front_page{
+    background: center no-repeat url("../img/main_section_background.png");
+    background-size: cover;
+    height: 100vh;
+}
