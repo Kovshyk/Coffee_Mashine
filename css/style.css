@@ -1,3 +1,4 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 .header_contacts{
     display: inline-flex;
     justify-content: space-around;
@@ -25,15 +26,34 @@ header>nav{
     background-color: white;
     height: 130px;
     width: 100%;
+
 }
 header>nav>ul>li{
     display: inline-block;
-
+    padding-right: 5px;
+    color:black;
+}
+header>nav>ul>li>a{
+    padding: 0 12px 0 12px;
+    color:#7d6565;
+    font-weight: bold;
 }
 .header_ico{
     display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 10%;
+
 }
 .header_ico>i{
-    height: 30px;
-    width: 30px;
+    color:white;
+    background-color: #c00407;
+    padding: 10px;
+    border:solid 1px #c00407;
+    border-radius: 20%;
+    margin: 1px;
+}
+.header_ico>i:first-child{
+    padding: 10px 12px;
 }
