@@ -271,6 +271,7 @@ background-color: var(--black);
     grid-template-columns: 1fr;
     padding: 15px;
     width: 100%;
+    text-align:center;
 }
 
 .about_main_text_first{
