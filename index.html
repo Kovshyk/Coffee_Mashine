@@ -13,16 +13,18 @@
 <body>
 <header>
     <div class="header_contacts">
-        <div>
-            <i class="fa fa-map-marker" aria-hidden="true"></i>
-            <p>303 E 61st St, New   York, NY 10065</p>
-        </div>
-        <div>
-            <i class="fa fa-phone" aria-hidden="true"></i>
-            <a>+1 (234) 567 89 00</a>
+        <div class="content">
+            <div>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <p>303 E 61st St, New   York, NY 10065</p>
+            </div>
+            <div>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <a>+1 (234) 567 89 00</a>
+            </div>
         </div>
     </div>
-    <nav>
+    <nav class="content">
         <img src="img/main_logo.svg" alt="Coffee Space icon">
         <span class="burger_button">
             <span></span>
@@ -49,13 +51,15 @@
 </header>
 <main>
     <section class="front_page">
-        <p>RENTAL</p>
-        <h1>Rent a <span>Coffee</span><br> Machine</h1>
-        <p>Need a coffee machine for commercial or home use? Get one here!</p>
-        <a href="#machines">Coffee Machines</a>
+        <div class="content">
+            <p>RENTAL</p>
+            <h1>Rent a <span>Coffee</span><br> Machine</h1>
+            <p>Need a coffee machine for commercial or home use? Get one here!</p>
+            <a href="#machines">Coffee Machines</a>
+        </div>
     </section>
-    <section class="advertising">
-        <div>
+    <section class="advertising content">
+        <div class="content">
             <div class="advertising_start_grid">
                 <img src="img/manuscript.svg" alt="Warranty Included">
                 <div>
@@ -80,7 +84,7 @@
         </div>
     </section>
     <section id="about" class="about">
-        <div class="about_main">
+        <div class="about_main content">
             <img src="img/pours_coffee.webp" alt="pours coffee into a cup">
             <div>
                 <div>
@@ -93,7 +97,7 @@
                         Our company does everything to ensure that you can enjoy delicious coffee whenever you want.</p>
                 </div>
 
-                <div class="about_list">
+                <div class="about_list ">
                     <div>
                         <img src="img/ok_ico.svg" alt="okay icon">
                         <div>
@@ -114,7 +118,7 @@
                 </div>
             </div>
         </div>
-        <div class="about_advertising">
+        <div class="about_advertising content">
             <div>
                 <h3>Indulgo <span>Z9</span></h3>
                 <span></span>
@@ -132,10 +136,12 @@
         </div>
     </section>
     <section class="steps">
-        <p class="title_p">STEPS</p>
-        <h2 class="title_h2">How to Rent a Coffee Machine</h2>
-        <p class="title_p_introduction">You're just 4 easy steps from great coffee.</p>
-        <div class="instruction">
+        <div class="content">
+            <p class="title_p">STEPS</p>
+            <h2 class="title_h2">How to Rent a Coffee Machine</h2>
+            <p class="title_p_introduction">You're just 4 easy steps from great coffee.</p>
+        </div>
+        <div class="instruction content">
             <div><img src="img/coffee_machine_steps.webp" alt="coffee machine with cup of coffee">
                 <h4><span>01.</span> Select a Coffee Machine</h4>
                 <p>In our online store, you will find coffee machines of any size and performance.</p>
@@ -155,7 +161,7 @@
         </div>
     </section>
     <section class="special">
-        <div>
+        <div class="content">
             <div>
                 <p>SPECIAL</p>
                 <h2>Introducing SMIK Original 2021</h2>
@@ -169,24 +175,24 @@
             </div>
             <img src="img/coffee_machine_special.webp" alt="red coffee machine">
         </div>
-        <div class="brand">
-            <div class="roundabout_brand">
-                <img src="img/brand/lavazza_brand.png" alt="lavazza brand"/>
-                <img src="img/brand/folgers_brand.png" alt="folgers brand"/>
-                <img src="img/brand/frontier_brand.png" alt="frontier organic coffee brand"/>
-                <img src="img/brand/melitta_brand.png" alt="melitta brand"/>
-                <img src="img/brand/green_mountain_brand.png" alt="green mountain coffee roaster brand"/>
-                <img src="img/brand/monarch_brand.png" alt="monarch brand"/>
-                <img src="img/brand/costa_brand.png" alt="costa brand"/>
-            </div>
-        </div>
-    </section>
 
+    </section>
+    <div class="brand ">
+        <div class="roundabout_brand content">
+            <img src="img/brand/lavazza_brand.png" alt="lavazza brand"/>
+            <img src="img/brand/folgers_brand.png" alt="folgers brand"/>
+            <img src="img/brand/frontier_brand.png" alt="frontier organic coffee brand"/>
+            <img src="img/brand/melitta_brand.png" alt="melitta brand"/>
+            <img src="img/brand/green_mountain_brand.png" alt="green mountain coffee roaster brand"/>
+            <img src="img/brand/monarch_brand.png" alt="monarch brand"/>
+            <img src="img/brand/costa_brand.png" alt="costa brand"/>
+        </div>
+    </div>
     <section id="machines" class="machines">
         <p class="title_p">COFFEE MACHINES</p>
         <h2 class="title_h2">Discover Coffee Machines We Offer</h2>
         <p class="title_p_introduction">We offer professional coffee machines for commercial and home use.</p>
-        <div class="roundabout_machines">
+        <div class="roundabout_machines content">
             <div><a href="">
                 <img src="img/machines/frost.png" alt="coffee machine FROST"></a>
                 <a href="">FROST Coffee Machine</a>
@@ -217,7 +223,7 @@
         </div>
     </section>
     <section class="description">
-        <div class="exceptional">
+        <div class="exceptional content">
             <img src="img/description/exceptional_photo.png" alt="girl with a cup of coffee">
             <div>
                 <div>
@@ -258,7 +264,7 @@
                 </div>
             </div>
         </div>
-        <div class="arrival">
+        <div class="arrival content">
             <img src="img/description/arrival_photo.png" alt="red coffee machine">
             <div>
                 <p class="title_p">NEW ARRIVAL</p>
@@ -298,27 +304,32 @@
         </div>
     </section>
     <section class="action">
-        <h2>Get 1 month<span>free*</span>usage</h2>
-        <p>*Rent any coffee machine for at least 6 months and get 1 month for free!
-            This promotion is valid only until May 31, 2021, and can't be combined with other offers.</p>
-        <div>
-            <a href="" class="rent_button">Rent Now</a>
-            <a href="">learn More</a>
+        <div class="content">
+            <h2 class="title_h2">Get 1 month <span>free*</span> usage</h2>
+            <p class="title_p_introduction">*Rent any coffee machine for at least 6 months and get 1 month for free!
+                This promotion is valid only until May 31, 2021, and can't be combined with other offers.</p>
+            <div>
+                <a href="" class="rent_button">Rent Now</a>
+                <a href="" >learn More</a>
+            </div>
         </div>
     </section>
     <section id="services" class="services">
-        <p class="title_p">SERVICES</p>
-        <h2 class="title_h2">Everything Related to Coffee</h2>
-        <p class="title_p_introduction">Our company is the ultimate place for everything related to coffee.
-            We offer coffee machines for rent, as well as repairs, accessories, and supplies.</p>
-        <ul>
-            <li><a href="">Rental Services</a></li>
-            <li><a href="">Consulting</a></li>
-            <li><a href="">Accessories</a></li>
-            <li><a href="">Repair</a></li>
-        </ul>
+        <div class="content">
+        <div>
+            <p class="title_p">SERVICES</p>
+            <h2 class="title_h2">Everything Related to Coffee</h2>
+            <p class="title_p_introduction">Our company is the ultimate place for everything related to coffee.
+                We offer coffee machines for rent, as well as repairs, accessories, and supplies.</p>
+            <ul>
+                <li><a href="#rental_services">Rental Services</a></li>
+                <li><a href="">Consulting</a></li>
+                <li><a href="">Accessories</a></li>
+                <li><a href="">Repair</a></li>
+            </ul>
+        </div>
         <div class="services_tabs">
-            <div>
+            <div id="rental_services">
                 <img src="img/services/coffee_machine.png" alt="silver coffee machine">
                 <div>
                     <h3>Coffee Machine Rental.</h3>
@@ -327,11 +338,20 @@
                         Here you can rent manual and automatic coffee machines that will prepare your favorite drink as quickly and
                         tasty as possible.</p>
                     <p>In our company, you will find coffee machines for both home and office use, as well for coffee shops.</p>
-                    <ul>
-                        <li>Only modern manual and automatic coffee machines from trusted brands.</li>
-                        <li>Any coffee machines, from inexpensive for home use to professional equipment for a coffee shop.</li>
-                        <li>Simple conditions for renting a coffee machine – for any period with a minimum deposit.</li>
-                    </ul>
+                    <div>
+                        <div>
+                            <img src="img/ok_ico.svg" alt="okay icon">
+                            <p>Only modern manual and automatic coffee machines from trusted brands.</p>
+                        </div>
+                        <div>
+                            <img src="img/ok_ico.svg" alt="okay icon">
+                            <p>Any coffee machines, from inexpensive for home use to professional equipment for a coffee shop.</p>
+                        </div>
+                        <div>
+                            <img src="img/ok_ico.svg" alt="okay icon">
+                            <p>Simple conditions for renting a coffee machine – for any period with a minimum deposit.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div>
@@ -341,11 +361,21 @@
                     <p>We offer consulting services for clients who wish to rent a coffee machine or order coffee beans for professional use.</p>
                     <p>You can get advice from our specialists in any convenient way.
                         Our experts will provide answers to all your questions and help you solve any problems related to choosing equipment or starting a coffee shop, like:</p>
-                    <ul>
-                        <li>What is the best coffee machine for professional use in a small coffee shop or a large restaurant?</li>
-                        <li>Which coffee brands are suitable for use in professional equipment and how to calculate the required coffee supply?</li>
-                        <li>How often is it necessary to diagnose professional equipment?</li>
-                    </ul>
+                    <div>
+                        <div>
+                            <img src="img/ok_ico.svg" alt="okay icon">
+                            <p>What is the best coffee machine for professional use in a small coffee shop or a large restaurant?</p>
+                        </div>
+                        <div>
+                            <img src="img/ok_ico.svg" alt="okay icon">
+                            <p>Which coffee brands are suitable for use in professional equipment and how to calculate the required coffee supply?</p>
+                        </div>
+                        <div>
+                            <img src="img/ok_ico.svg" alt="okay icon">
+                            <p>How often is it necessary to diagnose professional equipment?</p>
+                        </div>
+
+                    </div>
                 </div>
             </div>
             <div>
@@ -356,11 +386,21 @@
                     <p>We offer our customers everything they need for comfortable brewing. We sell disposable cups, caps, spoons,
                         spare parts for coffee machines, filters,
                         and many other accessories that you may need for the comfortable use of the equipment.</p>
-                    <ul>
-                        <li>Disposable cups made from recyclable cardboard can be branded to match your company name.</li>
-                        <li>Any number of tissues, disposable spoons, sugar sticks, and other accessories.</li>
-                        <li>Replaceable filters and other spare parts for coffee machines of any brand.</li>
-                    </ul>
+                    <div>
+
+                        <div>
+                            <img src="img/ok_ico.svg" alt="okay icon">
+                            <p>Disposable cups made from recyclable cardboard can be branded to match your company name.</p>
+                        </div>
+                        <div>
+                            <img src="img/ok_ico.svg" alt="okay icon">
+                            <p>Any number of tissues, disposable spoons, sugar sticks, and other accessories.</p>
+                        </div>
+                        <div>
+                            <img src="img/ok_ico.svg" alt="okay icon">
+                            <p>Replaceable filters and other spare parts for coffee machines of any brand.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div>
@@ -371,13 +411,14 @@
                     <p>Our employees will carry out repairs as soon as possible.
                         They carry out maintenance of coffee machines of all brands and models that we offer for rent.
                         The experts will quickly arrive at the site and solve a problem of any complexity.</p>
-                    <ul>
-                        <li>Regular service. Scheduled maintenance will help to keep your coffee machine in the best condition.</li>
-                        <li>Replacement of all spare parts and consumables when needed fo free.</li>
-                        <li>Prompt replacement of the coffee machine in the event of a malfunction.</li>
-                    </ul>
+                    <div>
+                        <p>Regular service. Scheduled maintenance will help to keep your coffee machine in the best condition.</p>
+                        <p>Replacement of all spare parts and consumables when needed fo free.</p>
+                        <p>Prompt replacement of the coffee machine in the event of a malfunction.</p>
+                    </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <section id="coffee" class="coffee">

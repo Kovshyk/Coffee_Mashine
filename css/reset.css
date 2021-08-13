@@ -20,9 +20,9 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 1px;
 }
 body {
-    max-width: 1442px;
     font-size: 14px;
     line-height: 1;
+    box-sizing: border-box;
 
 }
 p{
