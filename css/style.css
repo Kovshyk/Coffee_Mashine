@@ -24,9 +24,7 @@ header ,main, main>section,footer,body{
     --text_color_title:#222;
 }
 
-header>nav>ul, header>nav>div, header>div>div{
-    display: none;
-}
+
 .title_p{
     color: var(--content_color);
     font-size: 12px;
@@ -63,22 +61,100 @@ header>nav{
     align-items: center;
     height: 120px;
     padding: 0 30px;
+    width: 100%;
+    position: fixed;
+    background-color: var(--white);
+
 }
 header>nav>img{
     max-width: 225px;
 }
 header>nav>span{
-    display: flex;
-    flex-direction: column;
+    font-size: 2rem;
     cursor: pointer;
-    justify-content: space-around;
-    height: 1.5rem;
+    color: var(--text_color_title);
 
 }
-header>nav>span>*{
-    width: 2rem;
-    height: 2px;
-    background-color:var(--black);
+header>nav>span:hover{
+color: var(--text_color_introduction);
+}
+
+
+header>nav>ul{
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    top: 120px ;
+    margin:auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: var(--white);
+    height: 100vh;
+    width: 100%;
+}
+header>nav>ul>li{
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.6rem 0;
+}
+header>nav>ul>li>a{
+    text-align: center;
+    font-family: " Roboto", sans-serif;
+    color: var(--text_color_introduction);
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+}
+header>nav>ul>li>a:hover{
+    color: var(--content_color)
+}
+header>div>div{
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    top:25rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 3;
+    text-align: center;
+}
+header>div>div>div{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+header>div>div>div>*{
+    padding: 1rem 0;
+}
+header>div>div>div>i{
+    font-size: 1.5rem;
+    color: var(--content_color);
+}
+header>div>div>div>a{
+    font-size: 14px;
+    color: var(--black);
+    font-weight: bold;
+}
+.header_ico{
+    display: none;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:5px;
+    position: fixed;
+    top:40rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 3;
+}
+.header_ico i{
+    color: var(--white);
+    background-color: var(--content_color);
+    padding: 10px;
+    border: solid 1px var(--content_color);
+    border-radius: 25%;
+}
+.header_ico i:first-child{
+
+    padding: 11px;
 
 }
 
@@ -89,27 +165,34 @@ header>nav>span>*{
     .header_contacts{
         background-color:var(--back_color);
     }
-    .header_contacts>div{
+    header>div>div{
         height: 45px;
         font-weight: bold;
         position: relative;
         margin: 0 auto;
+        flex-direction: row;
         display:flex;
         justify-content: space-around;
         align-items: center;
+        top: 0;
+        left: 0;
+        transform: none;
 
     }
 
-    .header_contacts>div>div{
+    header>div>div>div{
         display: inline-flex;
         justify-content: center;
         flex: 1;
+        flex-direction: row;
+        align-items: center;
 
 
     }
-    .header_contacts>div>div>i{
+    header>div>div>div>i{
         color: var(--content_color);
         padding-right: 20px;
+        font-size: 1rem;
     }
 
     header>nav{
@@ -119,13 +202,22 @@ header>nav>span>*{
         background-color: var(--white);
         height: 130px;
         width: 100%;
-
+        position: sticky;
+        top:45px;
     }
     header>nav>ul{
         display:flex;
         flex: 3;
+        position: relative;
+        flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
+        top: 0;
+        left:0;
+        transform: none;
+        height: auto;
+
+
     }
     header>nav>img {
         max-width: 225px;
@@ -145,19 +237,12 @@ header>nav>span>*{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap:5px;
+        position: relative;
+        top:0;
+        left: 0;
+        transform: none;
     }
-    .header_ico i{
-        color: var(--white);
-        background-color: var(--content_color);
-        padding: 10px;
-        border: solid 1px var(--content_color);
-        border-radius: 25%;
-    }
-    .header_ico i:first-child{
 
-        padding: 11px;
-
-    }
 }
 @media (min-width: 1278px) {
     .header_ico{
