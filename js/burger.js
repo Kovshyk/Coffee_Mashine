@@ -3,7 +3,7 @@
     const navBarIcon = document.querySelector('.header_ico');
     const navBarButton = document.querySelector('.burger_button');
     const navBarUl = document.querySelector('header>nav>ul');
-    const navBarClickClose = document.querySelector('header>nav>ul>li>a');
+    const navBarClickClose = document.querySelectorAll('header>nav>ul>li>a');
     function showNavBar () {
         if (window.innerWidth <= 992) {
             navBarHeader.style.display = 'none';
@@ -26,12 +26,15 @@
 
         navBarButton.addEventListener('click', navBarButtonClick);
 
+
         function navBarButtonClickClose() {
             navBarButton.innerHTML = '<i class="fa fa-bars" aria-hidden="true"></i>';
             navBarHeader.style.display = 'none';
             navBarIcon.style.display = 'none';
             navBarUl.style.display = 'none';
         }
-        navBarClickClose.addEventListener('click', navBarButtonClickClose);
+
+    navBarClickClose.forEach (el => el.addEventListener('click', navBarButtonClickClose));
+
      window.addEventListener('resize', showNavBar);
 })();
