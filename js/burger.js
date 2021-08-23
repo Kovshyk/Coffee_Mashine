@@ -5,7 +5,7 @@
     const navBarUl = document.querySelector('header>nav>ul');
     const navBarClickClose = document.querySelector('header>nav>ul>li>a');
     function showNavBar () {
-        if (window.innerWidth < 992) {
+        if (window.innerWidth <= 992) {
             navBarHeader.style.display = 'none';
             navBarIcon.style.display = 'none';
             navBarUl.style.display = 'none';
