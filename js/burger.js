@@ -9,6 +9,7 @@
             navBarHeader.style.display = 'none';
             navBarIcon.style.display = 'none';
             navBarUl.style.display = 'none';
+            navBarButton.innerHTML = '<i class="fa fa-bars" aria-hidden="true"></i>';
         } else {
             navBarHeader.style.display = 'flex';
             navBarIcon.style.display = 'grid';
@@ -31,8 +32,6 @@
             navBarIcon.style.display = 'none';
             navBarUl.style.display = 'none';
         }
-
         navBarClickClose.addEventListener('click', navBarButtonClickClose);
-
-    window.addEventListener('resize', showNavBar);
+     window.addEventListener('resize', showNavBar);
 })();
