@@ -629,8 +629,9 @@ text-align: center;
         font-size: 68px;
     }
 }
+
 .brand{
-    display: none;
+
     background: var(--text_color_title);
 }
 .roundabout_brand{
@@ -638,9 +639,36 @@ text-align: center;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 0 5rem;
+
 }
 .roundabout_brand>img{
     max-width: 10rem;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.button_slider_left, .button_slider_right{
+    cursor: pointer;
+    position: absolute;
+    padding: 0 0.1rem;
+    border-radius: 50%;
+    background-color: var(--white);
+    height: 2rem;
+    width: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 1rem 1rem 1rem;
+
+
+}
+.button_slider_left{
+float: left;
+    left:1rem;
+}
+.button_slider_right{
+float: right;
+    right: 1rem;
 }
 .machines{
     display: flex;

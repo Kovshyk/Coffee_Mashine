@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0d76bdd-448b-4dbe-8622-d08e1e2b36f4" name="Default Changelist" comment="    vv">
+      <change afterPath="$PROJECT_DIR$/js/slider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/burger.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/burger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,17 +55,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine\img" />
-      <recent name="C:\Users\Professional\WebstormProjects\Coffee1\img" />
-      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine\img" />
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img" />
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img\testimonials" />
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img\pricing" />
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img\coffee" />
-      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img\services" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine\img" />
+      <recent name="C:\Users\Professional\WebstormProjects\Coffee1\img" />
+      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -84,6 +86,7 @@
       <workItem from="1628840930238" duration="12025000" />
       <workItem from="1629710002227" duration="14382000" />
       <workItem from="1629727441680" duration="4344000" />
+      <workItem from="1629998711733" duration="7531000" />
     </task>
     <task id="LOCAL-00001" summary="vv">
       <created>1628168029371</created>
@@ -241,10 +244,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="620" y="247" key="FileChooserDialogImpl/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1628789277901" />
-    <state x="600" y="207" key="RollbackChangesDialog" timestamp="1628630069571">
+    <state x="600" y="207" key="RollbackChangesDialog" timestamp="1630010903415">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="600" y="207" key="RollbackChangesDialog/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1628630069571" />
+    <state x="600" y="207" key="RollbackChangesDialog/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1630010903415" />
     <state x="338" y="135" key="Vcs.Push.Dialog.v2" timestamp="1629732409869">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
