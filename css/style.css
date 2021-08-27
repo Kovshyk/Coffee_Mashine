@@ -907,6 +907,9 @@ background: var(--text_color_title);
     }
 
 }
+.services{
+    display: flex;
+}
 .services>div{
     display: flex;
     flex-direction: column;
@@ -933,4 +936,117 @@ font-size: 16px;
 .services>div>div:first-child>ul>li>a:active{
     color: var(--text_color_title);
     border-bottom: solid 2px var(--text_color_title);
+}
+.tab-pane>div>div>div>img{
+    min-width: 0.7rem;
+    max-width: 1.2rem;
+}
+.tab-pane{
+    display: none;
+    grid-template-columns: 1fr;
+    padding: 2rem;
+}
+.tab-pane>div>h3{
+    font-size: 16px;
+    color: var(--text_color_title);
+    font-weight: bold;
+    text-align: left;
+}
+.tab-pane>div>p{
+font-size: 16px;
+    color: var(--text_color_content);
+    line-height: 1.3;
+}
+.tab-pane>div>div>div{
+    display: flex;
+    flex-direction: column;
+}
+.tab-pane.active{
+    display: grid;
+}
+
+.coffee{
+    display: none;
+}
+.questions {
+    display: none;
+}
+.statistics{
+    display: none;
+}
+.pricing{
+    display: none;
+}
+.video{
+    display: none;
+}
+.testimonials{
+    display: none;
+}
+.faq{
+    margin-top:3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+}
+.faq>img{
+    width: 100%;
+    border-radius: 1rem;
+    border: transparent;
+}
+.faq>div{
+margin-left: 1rem;
+}
+.accordion>ul>li{
+    border-bottom: solid var(--text_color_content) 1px;
+}
+.accordion_button{
+    font-size: 18px;
+    border: none;
+    height: 4rem;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    background: var(--white);
+
+}
+.accordion_button:after {
+    content: '\271A';
+    font-size: 16px;
+    color: var(--text_color_title);
+    float: right;
+    margin-left: 5px;
+
+}
+
+.active:after {
+    content: "\2014";
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.accordion>ul>li>p{
+
+    color: var(--text_color_introduction);
+    font-size: 16px;
+    line-height: 1.3;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height, padding 0.5s ease-out;
+
+}
+
+@media (min-width: 767px) {
+    .faq{
+        grid-template-columns: 1fr 1fr;
+    }
+    .faq>img{
+        padding-top:5rem;
+    }
+}
+.contacts{
+    display: none;
+}
+footer{
+    display: none;
 }
