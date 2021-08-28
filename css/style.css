@@ -411,7 +411,7 @@ background-color: var(--black);
     .about_main>img{
         padding: 0 1rem 0 1rem;
         border: transparent;
-        border-radius: 4%;
+        border-radius: 1rem;
 
     }
 }
@@ -423,7 +423,7 @@ background-color: var(--black);
 .about_advertising>div:first-child{
     background:no-repeat center/cover url("../img/indulgo.webp");
     border: transparent;
-    border-radius: 3%;
+    border-radius: 1rem;
     margin: 0.5rem;
 }
 .about_advertising>div:first-child>h3{
@@ -456,7 +456,7 @@ background-color: var(--black);
     align-items: flex-start;
     background:no-repeat center/cover url("../img/espresso_coffee.webp");
     border: transparent;
-    border-radius: 3%;
+    border-radius: 1rem;
     text-align: left;
     padding: 3rem;
     margin: 0.5rem;
@@ -503,33 +503,35 @@ background-color: var(--black);
 .instruction{
     display: grid;
     grid-template-columns: 1fr;
-    margin: 2rem 0 0 0;
+    margin: 2rem auto 0 auto;
 
 }
 .instruction>div {
-    margin: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: 1rem;
+    display: grid;
+    grid-template-rows: 1fr 4rem 4rem;
     text-align: center;
 }
 .instruction>div>img{
     border: transparent;
-    border-radius: 3%;
+    border-radius: 1rem;
+
 }
-.instruction>div>h4{
+.instruction>div>h3{
     color: var(--text_color_title);
     font-size: 18px;
     font-weight: bold;
-    padding: 1rem 0;
+    padding: 1rem;
+
 }
-.instruction>div>h4>span{
+.instruction>div>h3>span{
     color: var(--content_color);
 }
 .instruction>div>p{
     color: var(--text_color_content);
     font-size: 16px;
-    padding: 1rem 0 3rem 0;
+   max-height: 10rem;
+
 }
 @media (min-width: 767px) {
     .instruction{
@@ -541,7 +543,12 @@ background-color: var(--black);
     .instruction{
         grid-template-columns: repeat(4,1fr);
     }
-
+    .instruction>div {
+        margin: 1rem;
+        display: grid;
+        grid-template-rows: 1fr 4rem 1fr;
+        text-align: center;
+    }
 }
 .special{
     background: no-repeat center/cover url("../img/red_special.png");
@@ -735,7 +742,7 @@ float: right;
 
 }
 .exceptional>div{
-    padding: 0 4.5rem;
+    padding: 0 1.5rem;
 }
 .exceptional>div>div>h5+p{
     font-size: 16px;
@@ -759,10 +766,10 @@ float: right;
     fill: #ffffff !important;
     stroke:#ffffff !important;
     min-width: 0.7rem;
-    max-width: 1.2rem;
+    max-width: 3rem;
     border: transparent;
     border-radius: 50%;
-    padding: 1.5rem;
+    padding: 0.5rem;
 }
 .exceptional_list>div>div{
 padding-left: 1rem;
@@ -800,7 +807,7 @@ padding-left: 1rem;
 
 }
 .arrival>div{
-    padding: 0 4.5rem;
+    padding: 0 1.5rem;
     display: flex;
     flex-direction: column;
 
@@ -874,7 +881,7 @@ display: flex;
     align-items: flex-start;
     padding: 0 2rem ;
     border: transparent;
-    border-radius: 3%;
+    border-radius: 1rem;
     margin: 0 1rem;
 }
 .action>div>h2{
@@ -968,11 +975,152 @@ font-size: 16px;
 .coffee{
     display: none;
 }
-.questions {
-    display: none;
+.questions{
+    background-color: #f0e7de;
+}
+.questions_title {
+    display: grid;
+    grid-template-rows: 1fr;
+
+}
+.questions_title>div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+
+}
+.questions_title>div>h2{
+    font-size: 48px;
+    line-height: 1.2;
+    color:var(--text_color_title);
+    font-weight: bold;
+    padding-bottom:3rem ;
+    font-family: "Poppins", sans-serif;
+    }
+.questions_title>div>h2>span {
+    color:var(--content_color);
+}
+.questions_title>div>div{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    padding:2rem 0 5rem 0 ;
+}
+
+.questions_title>div>div>a:first-child{
+    border:2px solid var(--content_color);
+    background-color: var(--content_color);
+    color: var(--white);
+    padding: 1rem ;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.questions_title>div>div>a:first-child:hover{
+    border:2px solid var(--text_color_title);
+    background-color: var(--text_color_title);
+}
+.questions_title>div>div>a:last-child{
+    border: solid var(--black) 2px;
+    color: var(--black);
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.questions_title>div>div>a:last-child:hover{
+
+    color: var(--white);
+    background-color: var(--black);
+}
+@media (max-width: 345px){
+.questions_title{
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width: 767px) {
+    .questions_title{
+        grid-template-columns: 1fr 1fr;
+    }
+    .questions_title>div>h2{
+        font-size: 63px;
+    }
+    .questions_title>img{
+        object-fit: cover;
+        height: 100%;
+        object-position:center;
+    }
+
+}
+@media (min-width: 991px){
+    .questions_title>div>h2{
+        font-size: 68px;
+    }
+    .questions_title>div{
+        padding: 4rem 1rem;
+        max-width: 95%;
+    }
 }
 .statistics{
-    display: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    background: red;
+}
+.statistics>div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
+}
+.statistics>div>img{
+    max-width: 3rem;
+    min-width: 1rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: #8b0305;
+    margin: 2.5rem 0 2rem 0;
+}
+.statistics>div>h3{
+    font-size: 34px;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    }
+.statistics>div>span{
+    width: 4rem;
+    height: 2px;
+    background-color: #d45557;
+    display: block;
+    margin:0 auto;
+
+}
+.statistics>div>p{
+    font-size: 16px;
+   padding:2rem 0 3rem 0;
+    max-width: 70%;
+    text-align: center;
+}
+.statistics>div:nth-child(1){
+    background:#c00407 ;
+}
+.statistics>div:nth-child(2){
+    background:#b20306 ;
+}
+.statistics>div:nth-child(3){
+    background:#a40407 ;
+}
+.statistics>div:nth-child(4){
+    background:#990205 ;
+}
+@media (min-width: 767px) {
+    .statistics{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 991px) {
+    .statistics{
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
 .pricing{
     display: none;
@@ -983,18 +1131,18 @@ font-size: 16px;
 .testimonials{
     display: none;
 }
-.faq{
+.faq>div{
     margin-top:3rem;
     display: grid;
     grid-template-columns: 1fr;
     padding: 1rem;
 }
-.faq>img{
+.faq>div>img{
     width: 100%;
     border-radius: 1rem;
     border: transparent;
 }
-.faq>div{
+.faq>div>div{
 margin-left: 1rem;
 }
 .accordion>ul>li{
@@ -1037,11 +1185,11 @@ margin-left: 1rem;
 }
 
 @media (min-width: 767px) {
-    .faq{
+    .faq>div{
         grid-template-columns: 1fr 1fr;
     }
-    .faq>img{
-        padding-top:5rem;
+    .faq>div>img{
+       margin-top:5rem;
     }
 }
 .contacts{
