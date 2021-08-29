@@ -178,8 +178,8 @@
     <div class="brand ">
         <div class="roundabout_brand content">
             <a class="button_slider_left"><i class="fa fa-angle-left" aria-hidden="true"></i> </a>
-            <a class="button_slider_right"><i class="fa fa-angle-right" aria-hidden="true"></i>
-            </a>
+            <a class="button_slider_right"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+            <div class="js-sliders roundabout_brand"></div>
         </div>
     </div>
     <section id="machines" class="machines">
@@ -478,18 +478,18 @@
     </section>
     <section class="questions ">
         <div class="content">
-               <div class="questions_title">
-               <div>
-            <p class="title_p">QUESTIONS?</p>
-            <h2>Ask Us Anything About <span>Coffee</span></h2>
-            <p class="title_p_introduction">Coffee is our business. Ask us anything about the coffee machines or coffee products if you have any questions.</p>
-            <div>
-                <a href="">FAQ</a>
-                <a href="">Ask a Question</a>
+            <div class="questions_title">
+                <div>
+                    <p class="title_p">QUESTIONS?</p>
+                    <h2>Ask Us Anything About <span>Coffee</span></h2>
+                    <p class="title_p_introduction">Coffee is our business. Ask us anything about the coffee machines or coffee products if you have any questions.</p>
+                    <div>
+                        <a href="">FAQ</a>
+                        <a href="">Ask a Question</a>
+                    </div>
+                </div>
+                <img src="img/girl_with_coffee.png" alt="girl with cup of coffee">
             </div>
-        </div>
-        <img src="img/girl_with_coffee.png" alt="girl with cup of coffee">
-        </div>
             <div class="statistics">
                 <div><img src="img/statistics/calendar.svg" alt="calendar ico">
                     <h3>10</h3>
@@ -517,40 +517,48 @@
     </section>
 
     <section id="pricing" class="pricing">
-        <p class="title_p">PRICING</p>
-        <h2 class="title_h2">Ready to Rent a Coffee Machine?</h2>
-        <p class="title_p_introduction">We offer several pricing plans depending on what type of equipment you need.</p>
-        <div class="pricing_tabs">
-            <div><img src="img/pricing/little_coffee_machine.svg" alt="little coffee machine ico">
-                <h4><span>$190</span> Manual</h4>
-                <p><span>---</span>per month</p>
-                <ul>
-                    <li>Get 2 packs of beans for free with your coffee machine.</li>
-                    <li>Approximately 600 cups per month.</li>
-                    <li>Ease to prepare drinks.</li>
-                    <li>Easy to keep equipment clean.</li>
-                </ul>
-                <a href="">Select</a></div>
-            <div><img src="img/pricing/coffee_machine.svg" alt="coffee machine ico">
-                <h4><span>$299</span> Automatic</h4>
-                <p><span>---</span>per month</p>
-                <ul>
-                    <li>Get 3 packs of beans for free with your coffee machine.</li>
-                    <li>Approximately 1000 cups per month.</li>
-                    <li>Reliable and simple equipment.</li>
-                    <li>User-friendly interface.</li>
-                </ul>
-                <a href="">Select</a></div>
-            <div><img src="img/pricing/big_coffee_machine.svg" alt="big coffee machine ico">
-                <h4><span>$499</span> Professional</h4>
-                <p><span>---</span>per month</p>
-                <ul>
-                    <li>Get 5 packs of beans for free with your coffee machine.</li>
-                    <li>Approximately 2000 cups per month.</li>
-                    <li>Statistics of prepared drinks.</li>
-                    <li>Automatic preparation of any drink.</li>
-                </ul>
-                <a href="">Select</a>
+        <div class="content">
+            <p class="title_p">PRICING</p>
+            <h2 class="title_h2">Ready to Rent a Coffee Machine?</h2>
+            <p class="title_p_introduction">We offer several pricing plans depending on what type of equipment you need.</p>
+            <div class="pricing_tabs">
+
+                <div class="pricing_tab">
+                    <span><img src="img/pricing/little_coffee_machine.svg" alt="little coffee machine ico"></span>
+                    <h3><span>$190</span> Manual</h3>
+                    <div><span></span><p>per month</p></div>
+                    <ul>
+                        <li>Get 2 packs of beans for free with your coffee machine.</li>
+                        <li>Approximately 600 cups per month.</li>
+                        <li>Ease to prepare drinks.</li>
+                        <li>Easy to keep equipment clean.</li>
+                    </ul>
+                    <a href="">Select</a>
+                </div>
+                <div class="pricing_tab">
+                    <span><img src="img/pricing/coffee_machine.svg" alt="coffee machine ico"></span>
+
+                    <h3><span>$299</span> Automatic</h3>
+                    <div><span></span><p>per month</p></div>
+                    <ul>
+                        <li>Get 3 packs of beans for free with your coffee machine.</li>
+                        <li>Approximately 1000 cups per month.</li>
+                        <li>Reliable and simple equipment.</li>
+                        <li>User-friendly interface.</li>
+                    </ul>
+                    <a href="">Select</a></div>
+                <div class="pricing_tab">
+                    <span><img src="img/pricing/big_coffee_machine.svg" alt="big coffee machine ico"></span>
+                    <h3><span>$499</span> Professional</h3>
+                    <div> <span></span><p>per month</p></div>
+                    <ul>
+                        <li>Get 5 packs of beans for free with your coffee machine.</li>
+                        <li>Approximately 2000 cups per month.</li>
+                        <li>Statistics of prepared drinks.</li>
+                        <li>Automatic preparation of any drink.</li>
+                    </ul>
+                    <a href="">Select</a>
+                </div>
             </div>
         </div>
     </section>
@@ -614,37 +622,37 @@
     </section>
     <section class="faq">
         <div class="content">
-        <img src="img/faq_main_photo.png" alt="girls with coffee">
-        <div>
-            <p class="title_p">FAQ</p>
-            <h2 class="title_h2">Still Have Any Questions?</h2>
-            <p class="title_p_introduction">We have collected the most frequently asked questions regarding our service.
-                If you still have any questions, we will be happy to answer them in a personal consultation.</p>
-            <div class="accordion">
-                <ul>
-                    <li><button class="accordion_button">What coffee machines do you offer?</button>
-                        <p class="panel">We offer our customers various types of coffee machines – from manual ones for home use to professional equipment.</p>
-                    </li>
-                    <li><button class="accordion_button">Can I use my coffee in a rented coffee machine?</button>
-                        <p class="panel">Sure. You can buy our coffee beans if you wish. But you can also use any other coffee beans.</p>
-                    </li>
-                    <li><button class="accordion_button">What is the minimum rental period? </button>
-                        <p class="panel">You can rent a coffee machine for at least 2 months.</p>
-                    </li>
-                    <li><button class="accordion_button">What if the coffee machine breaks down?</button>
-                        <p class="panel">In the event of a malfunction of the coffee machine, you need to contact our manager,
-                            and we will immediately repair or replace the coffee machine.</p>
-                    </li>
-                    <li><button class="accordion_button">How to order a coffee machine? </button>
-                        <p class="panel">Choose a coffee machine right on the website or send us a request if you need advice.
-                            We will contact you, discuss all the details, send you a rental agreement, and install the chosen coffee machine.</p>
-                    </li>
-                    <li><button class="accordion_button">What if I want to cancel my coffee machine rental?</button>
-                        <p class="panel">You can terminate your rental at any time. To do this, inform our manager about your decision, and our specialists will pick up the coffee machine.</p>
-                    </li>
-                </ul>
+            <img src="img/faq_main_photo.png" alt="girls with coffee">
+            <div>
+                <p class="title_p">FAQ</p>
+                <h2 class="title_h2">Still Have Any Questions?</h2>
+                <p class="title_p_introduction">We have collected the most frequently asked questions regarding our service.
+                    If you still have any questions, we will be happy to answer them in a personal consultation.</p>
+                <div class="accordion">
+                    <ul>
+                        <li><button class="accordion_button">What coffee machines do you offer?</button>
+                            <p class="panel">We offer our customers various types of coffee machines – from manual ones for home use to professional equipment.</p>
+                        </li>
+                        <li><button class="accordion_button">Can I use my coffee in a rented coffee machine?</button>
+                            <p class="panel">Sure. You can buy our coffee beans if you wish. But you can also use any other coffee beans.</p>
+                        </li>
+                        <li><button class="accordion_button">What is the minimum rental period? </button>
+                            <p class="panel">You can rent a coffee machine for at least 2 months.</p>
+                        </li>
+                        <li><button class="accordion_button">What if the coffee machine breaks down?</button>
+                            <p class="panel">In the event of a malfunction of the coffee machine, you need to contact our manager,
+                                and we will immediately repair or replace the coffee machine.</p>
+                        </li>
+                        <li><button class="accordion_button">How to order a coffee machine? </button>
+                            <p class="panel">Choose a coffee machine right on the website or send us a request if you need advice.
+                                We will contact you, discuss all the details, send you a rental agreement, and install the chosen coffee machine.</p>
+                        </li>
+                        <li><button class="accordion_button">What if I want to cancel my coffee machine rental?</button>
+                            <p class="panel">You can terminate your rental at any time. To do this, inform our manager about your decision, and our specialists will pick up the coffee machine.</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
         </div>
     </section>
     <section id="contacts" class="contacts">
@@ -686,51 +694,58 @@
     </section>
 </main>
 <footer>
-    <div>
-        <div>
-            <img src="img/main_logo.svg" alt="main logo">
-            <p>We offer coffee machines rental for home, office or commercial use.
-                Also, here you can buy coffee beans, as well as all the necessary consumables and spare parts for your coffee machines.</p>
+    <div class="footer_background">
+        <div class="content">
+            <div class="footer_main">
+                <div class="description_footer">
+                    <img src="img/footer_logo.svg" alt="main logo">
+                    <p>We offer coffee machines rental for home, office or commercial use.
+                        Also, here you can buy coffee beans, as well as all the necessary consumables and spare parts for your coffee machines.</p>
+                </div>
+                <div class="list_footer">
+                    <h2>Navigation</h2>
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">How to Order</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="list_footer">
+                    <h2>Shop</h2>
+                    <ul>
+                        <li><a href="">Coffee Machines</a></li>
+                        <li><a href="">Coffee</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="footer_form">
+                    <h3>Subscribe to our newsletter</h3>
+                    <form >
+                        <label>
+                            <input value="Email*"  type="email">
+                        </label>
+                        <input type="button" value="Subscribe"></form>
+                </div>
+            </div>
         </div>
-        <div class="navigation_footer">
-            <h4>Navigation</h4>
-            <ul>
-                <li><a href="">About Us</a></li>
-                <li><a href="">How to Order</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Pricing</a></li>
-            </ul>
-        </div>
-        <div class="shop_footer">
-            <h4>Shop</h4>
-            <ul>
-                <li><a href="">Coffee Machines</a></li>
-                <li><a href="">Coffee</a></li>
-                <li><a href="">FAQ</a></li>
-                <li><a href="">Contact us</a></li>
-            </ul>
-        </div>
-        <div>
-            <h5>Subscribe to our newsletter</h5>
-            <form >
-                <label>
-                    <input type="email">
-                </label>
-                <input type="button" value="Subscribe"></form>
-        </div>
-    </div>
-    <div>
-        <p>© Created by | All rights Reserved</p>
-        <div class="header_ico">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+        <div class="desk_background">
+            <div class="footer_desk">
+                <p>© Created by | All rights Reserved</p>
+                <div class="header_ico">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                </div>
+            </div>
         </div>
     </div>
 </footer>
+
 <script src="js/tabs.js"></script>
 <script src="js/accordion.js"></script>
-<!--<script src="js/slider.js"></script>-->
+<!--<script src="js/slider_new.js"></script>-->
 <script src="js/burger.js"></script>
 </body>
 </html>

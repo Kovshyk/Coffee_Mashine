@@ -20,16 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0d76bdd-448b-4dbe-8622-d08e1e2b36f4" name="Default Changelist" comment="    vv">
+      <change afterPath="$PROJECT_DIR$/img/footer_logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/description/coffee_beans.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/description/coffee_beans.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/description/coffee_cup.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/description/coffee_cup.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/description/coffee_machine.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/description/coffee_machine.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/statistics/calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/statistics/calendar.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/statistics/coffee.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/statistics/coffee.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/statistics/coffee_machine.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/statistics/coffee_machine.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/statistics/hand.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/statistics/hand.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ok_ico.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/ok_ico.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/slider.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/tabs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,20 +55,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine\img" />
-      <recent name="C:\Users\Professional\WebstormProjects\Coffee1\img" />
-      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine\img" />
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img" />
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img\testimonials" />
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img\pricing" />
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img\coffee" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine\img" />
+      <recent name="C:\Users\Professional\WebstormProjects\Coffee1\img" />
+      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -94,7 +93,8 @@
       <workItem from="1629727441680" duration="4344000" />
       <workItem from="1629998711733" duration="7728000" />
       <workItem from="1630176987767" duration="31000" />
-      <workItem from="1630177019613" duration="12140000" />
+      <workItem from="1630177019613" duration="12596000" />
+      <workItem from="1630228374835" duration="21215000" />
     </task>
     <task id="LOCAL-00001" summary="vv">
       <created>1628168029371</created>
@@ -222,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630012366673</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="    vv">
+      <created>1630190072648</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1630190072648</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,10 +270,14 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="600" y="207" key="RollbackChangesDialog/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1630010903415" />
-    <state x="338" y="135" key="Vcs.Push.Dialog.v2" timestamp="1630012368368">
+    <state x="341" y="150" key="SettingsEditor" timestamp="1630252636683">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="338" y="135" key="Vcs.Push.Dialog.v2/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1630012368368" />
+    <state x="341" y="150" key="SettingsEditor/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1630252636683" />
+    <state x="338" y="135" key="Vcs.Push.Dialog.v2" timestamp="1630190075309">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="338" y="135" key="Vcs.Push.Dialog.v2/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1630190075309" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1628521135304" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1628168046778">
       <screen x="0" y="0" width="1366" height="728" />
