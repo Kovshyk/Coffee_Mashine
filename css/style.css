@@ -1295,7 +1295,7 @@ header>div>div>div>a{
 
 }
 
-.active:after {
+.accordion_button.active:after {
     content: "\2014";
     font-weight: bold;
     font-size: 16px;
