@@ -29,6 +29,7 @@ header ,main, main>section,footer,body{
     color: var(--content_color);
     font-size: 12px;
     padding: 5rem 0 1rem 0;
+    z-index: 3;
 }
 .title_h2{
     color: var(--text_color_title);
@@ -1253,8 +1254,134 @@ header>div>div>div>a{
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-.video{
-    display: none;
+.video_play{
+    background:linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7) ),
+    url("../img/coffee_beans_background.png")
+    no-repeat  fixed center/cover ;
+}
+.video_play>div{
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.video_play>div>div:first-child{
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    padding: 0 1rem;
+}
+.video_play>div>div:first-child>h2{
+    font-size: 48px;
+    width: 90%;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    padding: 0.5rem 0 4rem 0;
+
+}
+.video_play>div>div:last-child{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    color:var(--white);
+    padding-bottom: 10rem;
+}
+.video_play>div>div:last-child>img{
+    width: 7rem;
+    padding: 0 1rem;
+}
+.video_play>div>div:last-child>h3{
+    width: 10rem;
+    padding: 0 1rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+@media (min-width: 767px) {
+    .video_play>div{
+        grid-template-columns: 2fr 1fr;
+    }
+    .video_play>div>div:first-child{
+        padding: 10rem 1rem;
+    }
+    .video_play>div>div:last-child{
+        padding: 10rem 1rem;
+    }
+    .video_play>div>div:first-child>h2{
+        font-size: 63px;
+        width: 100%;
+    }
+}
+@media (min-width: 991px) {
+    .video_play>div>div:first-child>h2{
+        font-size: 68px;
+    }
+}
+.description_video{
+    background: var(--content_color);
+}
+.description_video>div{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.description_video>div>div:first-child{
+    color:var(--white);
+    padding: 2rem 2rem;
+}
+.description_video>div>div:first-child>h3{
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    padding: 0.5rem 0;
+}
+.description_video>div>div:first-child>p{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0.5rem 0;
+}
+.description_video>div>div:last-child{
+    padding: 2rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width:25rem ;
+    text-align: center;
+}
+.description_video>div>div:last-child>*{
+    margin:0.5rem 1rem 0.5rem 0;
+}
+.description_video>div>div:last-child>a:first-child{
+    font-size: 15px;
+    border: solid var(--white) 2px;
+    background: var(--white);
+    color: var(--text_color_title);
+    padding: 1rem 1rem;
+}
+.description_video>div>div:last-child>a:last-child{
+    font-size: 15px;
+    border: solid var(--white) 2px;
+    color: var(--white);
+    padding: 1rem 1.5rem;
+}
+@media (max-width: 390px) {
+    .description_video>div>div:last-child{
+        flex-direction: column;
+    }
+}
+@media (min-width: 767px) {
+    .description_video>div{
+        grid-template-columns: 1fr 1fr;
+    }
+    .description_video>div>div:last-child{
+min-width: 25rem;
+        justify-content: flex-end;
+    }
+}
+@media (min-width: 767px) {
+    .description_video>div{
+        grid-template-columns: 2fr 1fr;
+    }
 }
 .testimonials{
     display: none;
@@ -1431,5 +1558,38 @@ header>div>div>div>a{
     }
 }
 .footer_desk{
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer_desk>p{
+    font-size: 12px;
+    font-family: " Roboto", sans-serif;
+    color: #909090;
+    padding: 1rem 0 2rem 0;
+}
+.footer_ico>i{
+    color: var(--content_color);
+    background: #222222;
+    padding: 0.5rem;
+    font-size: 16px;
+    margin: 0 0.2rem 2rem 0.2rem;
+}
+.footer_ico>i:first-child{
+    padding: 0.5rem 0.65rem;
+}
+@media (min-width: 767px) {
+    .footer_desk{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1.5rem;
+    }
+    .footer_desk>p{
+        padding:0;
+    }
+    .footer_ico>i{
+        margin: 0 0.2rem 0 0.2rem;
+    }
 }
