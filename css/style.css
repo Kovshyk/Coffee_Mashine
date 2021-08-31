@@ -639,25 +639,25 @@ header>div>div>div>a{
     }
 }
 
-.brand{
+.brands{
 
     background: var(--text_color_title);
 }
-.roundabout_brand{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.roundabout_brands>div>div{
+     display: flex ;
     align-items: center;
-    margin: 0 5rem;
+    justify-content: center;
 
 }
-.roundabout_brand>img{
+.brand{
     max-width: 10rem;
-    padding: 0.5rem;
-    margin: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+    height: 100%;
 }
 
-.button_slider_left, .button_slider_right{
+.button_slider_left, .button_slider_right,
+.brand_button_slider_left, .brand_button_slider_right{
     cursor: pointer;
     position: absolute;
     padding: 0 0.1rem;
@@ -669,36 +669,50 @@ header>div>div>div>a{
     text-align: center;
     margin: 1rem 1rem 1rem 1rem;
     content: none;
-
+    z-index: 100;
+    opacity: 30%;
 
 }
-.button_slider_left{
+.brand_button_slider_left, .brand_button_slider_right{
+    top:2rem;
+}
+.button_slider_left, .button_slider_right{
+    top:13rem;
+}
+.brand_button_slider_left,.button_slider_left{
     float: left;
-    left:1rem;
+    left:0.5rem;
 }
-.button_slider_right{
+.brand_button_slider_right,.button_slider_right{
     float: right;
-    right: 1rem;
+    right: 0.5rem;
 }
 .machines{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
-.roundabout_machines{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 2rem 0 7rem 0;
+.machines_item{
+    display: flex;
+
 
 }
 .roundabout_machines>div{
-    margin: 1rem;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.roundabout_machines>div>div{
+
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
 }
 .photo_machines{
     padding: 1rem 0;
+
 }
 .name_machines{
     margin: 1rem 0;
@@ -721,22 +735,10 @@ header>div>div>div>a{
     font-size: 16px;
     max-width: 9rem;
 }
-@media (min-width: 767px) {
-    .roundabout_machines{
-        grid-template-columns: repeat(3, 1fr);
 
-    }
-
-}
-@media (min-width: 991px) {
-    .roundabout_machines{
-        grid-template-columns: repeat(5, 1fr);
-
-    }
-
-}
 .description{
     background-color: var(--back_color);
+    margin-top: 2rem;
 }
 .exceptional{
     display: grid;

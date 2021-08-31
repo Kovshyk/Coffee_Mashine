@@ -20,7 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0d76bdd-448b-4dbe-8622-d08e1e2b36f4" name="Default Changelist" comment="    vv">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/sliders.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/sliders.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,17 +57,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine\img" />
-      <recent name="C:\Users\Professional\WebstormProjects\Coffee1\img" />
-      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine\img" />
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img" />
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img\testimonials" />
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img\pricing" />
       <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\img\coffee" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine\img" />
+      <recent name="C:\Users\Professional\WebstormProjects\Coffee1\img" />
+      <recent name="C:\Users\Professional\WebstormProjects\Coffee_Mashine1\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -92,6 +95,7 @@
       <workItem from="1630342081150" duration="62000" />
       <workItem from="1630342144360" duration="12263000" />
       <workItem from="1630395444050" duration="4611000" />
+      <workItem from="1630433889608" duration="6386000" />
     </task>
     <task id="LOCAL-00001" summary="vv">
       <created>1628168029371</created>
