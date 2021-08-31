@@ -668,6 +668,7 @@ header>div>div>div>a{
     font-size: 2rem;
     text-align: center;
     margin: 1rem 1rem 1rem 1rem;
+    content: none;
 
 
 }
@@ -696,16 +697,16 @@ header>div>div>div>a{
     flex-direction: column;
     justify-content: space-between;
 }
-.roundabout_machines>div>a>img{
+.photo_machines{
     padding: 1rem 0;
 }
-.roundabout_machines>div>a{
+.name_machines{
     margin: 1rem 0;
     color: var(--text_color_title);
     font-size: 16px;
     font-weight: bold;
 }
-.roundabout_machines>div>p{
+.price_machines{
     color: var(--text_color_title);
     font-size: 16px;
     font-weight: bold;
@@ -715,7 +716,7 @@ header>div>div>div>a{
     color: var(--white);
     background-color: var(--content_color);
     border: solid 1px var(--content_color);
-    padding: 1rem 0;
+    padding: 1rem 1rem;
     font-weight: bold;
     font-size: 16px;
     max-width: 9rem;
